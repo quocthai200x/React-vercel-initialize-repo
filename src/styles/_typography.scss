@@ -1,0 +1,134 @@
+/** Type */
+.h1 {
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+.h2 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+}
+
+.h4 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.h5 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
+
+.subtitle1 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+}
+
+.subtitle2 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+}
+
+.body1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.body2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.body3 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.caption {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.captionM {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.buttonL {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.buttonM {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.buttonS {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.linkL {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.linkM {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.linkS {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.linkXS {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+/** Color */
+.text-dark {
+  color: var(--color-grey-800);
+}
+
+.text-default {
+  color: var(--color-grey-light);
+}
+
+.text-link {
+  color: var(--color-link);
+}
+
+.capitalize-first::first-letter {
+  text-transform: uppercase;
+}

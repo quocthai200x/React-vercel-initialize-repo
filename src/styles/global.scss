@@ -1,0 +1,30 @@
+@import 'normalize';
+@import 'base';
+@import 'variables';
+@import 'utilities';
+@import 'typography';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* stylelint-disable */
+  .h-screen {
+    height: 100vh; /* For browsers that don't support CSS variables */
+    height: calc(var(--1dvh, 1vh) * 100); /* This is the "polyfill" */
+    height: 100dvh; /* This is for future browsers that support svh, dvh and lvh viewport units */
+  }
+
+  /** Images are pixelated when using object-fit: cover
+      Reference: https://stackoverflow.com/questions/74502978/object-fit-cover-gives-pixelated-images-on-chrome
+  */
+  .object-cover {
+    overflow-clip-margin: unset;
+  }
+  /* stylelint-enable */
+
+  .card-paper {
+    @apply rounded-2xl border border-solid border-transparent-grey-16 bg-white p-6;
+  }
+}
